@@ -1,0 +1,13 @@
+192.168.2.254:54800/rc-main-communal:v2.1.14
+192.168.2.254:54800/rc-main-project:v2.0.14
+192.168.2.254:54800/rc-common-im:v1.1.31
+192.168.2.254:54800/rc-main-content:v2.1.5
+192.168.2.254:54800/rc-main-operation:v2.0.8
+192.168.2.254:54800/rc-main-iam:v2.0.3
+192.168.2.254:54800/rc-bbz-admin:v1.2.15
+192.168.2.254:54800/rc-bbz-interface:v1.4.2
+192.168.2.254:54800/rc-main-account:v2.1.17
+192.168.2.254:54800/rc-common-infra:v2.1.14
+192.168.2.254:54800/rc-main-finance:v2.0.8
+192.168.2.254:54800/rc-main-marketing:v2.0.4
+192.168.2.254:54800/rc-main-mall:v2.0.1
