@@ -12,8 +12,8 @@ FRONTEND_DIR2="/home/jenkins/build/bbx-aiwrite-vue3"
 current_weekday=$(date +%u)     # 星期几（1-7）
 current_day=$(date +%d)         # 当前天数
 current_year_month=$(date +%y%m)
-week_number=$(date +%U)
-month_number=$(date +%m)
+week_number=$(date +%V)         # 当年第几周
+month_number=$(date +%-m)        # 当月第几月不包含前置数0 如果是date +%m 则包含0
 
 # 获取本月最后一天
 last_day_of_month=$(cal $(date +%m) $(date +%Y) | awk 'NF {DAYS = $NF}; END {print DAYS}')
@@ -208,7 +208,7 @@ function month_summary() {
         fi
     done
 
-    message="### 事件通知:2025年第${month_number}月构建与代码统计"
+    message="### 事件通知:2025年${month_number}月构建与代码统计"
 
     # 添加构建统计部分
     message+="\n#### 推送构建统计\n"
